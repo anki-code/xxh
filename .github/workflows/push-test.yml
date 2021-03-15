@@ -1,9 +1,9 @@
-name: Test xxh after push
+name: Test xxh on push
 
 on: push
 
 jobs:
-  deploy:
+  test-short:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
